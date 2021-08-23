@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27185" started-at="2021-08-06T03:24:53Z" finished-at="2021-08-06T03:25:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27185" started-at="2021-08-06T03:24:53Z" finished-at="2021-08-06T03:25:20Z">
+      <class name="com.actitime.testcase.DeleteCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.DeleteCustomerTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="3232" started-at="2021-08-05T23:25:01Z" finished-at="2021-08-05T23:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeleteCustomer()[pri:0, instance:com.actitime.testcase.DeleteCustomerTest@1bce4f0a]" name="testDeleteCustomer" duration-ms="15276" started-at="2021-08-05T23:25:05Z" finished-at="2021-08-05T23:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.testcase.DeleteCustomerTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-08-05T23:25:20Z" finished-at="2021-08-05T23:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCustomer status=SUCCESS method=DeleteCustomerTest.testDeleteCustomer()[pri:0, instance:com.actitime.testcase.DeleteCustomerTest@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcase.DeleteCustomerTest -->
+      <class name="com.actitime.testcase.CreateCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.testcase.CreateCustomerTest@3bfdc050]" name="setUp" is-config="true" duration-ms="3802" started-at="2021-08-05T23:24:53Z" finished-at="2021-08-05T23:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.testcase.CreateCustomerTest@3bfdc050]" name="testCreateCustomer" duration-ms="4851" started-at="2021-08-05T23:24:56Z" finished-at="2021-08-05T23:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.testcase.CreateCustomerTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-08-05T23:25:01Z" finished-at="2021-08-05T23:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateCustomer status=SUCCESS method=CreateCustomerTest.testCreateCustomer()[pri:0, instance:com.actitime.testcase.CreateCustomerTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.testcase.CreateCustomerTest -->
+      <class name="com.actitime.testcase.BaseTest">
+        <test-method status="PASS" signature="setupRepot()[pri:0, instance:com.actitime.testcase.BaseTest@42d80b78]" name="setupRepot" is-config="true" duration-ms="234" started-at="2021-08-05T23:24:52Z" finished-at="2021-08-05T23:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRepot -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.actitime.testcase.BaseTest@42d80b78]" name="reportFlush" is-config="true" duration-ms="463" started-at="2021-08-05T23:25:20Z" finished-at="2021-08-05T23:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.actitime.testcase.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

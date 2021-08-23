@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.actitime.testcase.DeleteCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="reportFlush"/>
+          <include name="setupRepot"/>
+          <include name="tearDown"/>
+          <include name="testDeleteCustomer"/>
+        </methods>
+      </class> <!-- com.actitime.testcase.DeleteCustomerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
